@@ -14,10 +14,12 @@ namespace HotelManagment.Models
         [Required]
         public string LastName { get; set; }
 
-        [Required, StringLength(10)]
+        [Required]
+        [StringLength(10, MinimumLength = 10, ErrorMessage = "Phone must be exactly 10 digits")]
         public string PhoneNumber { get; set; }
 
-        [Required, EmailAddress]
+        [Required]
+        [EmailAddress]
         public string Email { get; set; }
 
         public bool IsAdult { get; set; }

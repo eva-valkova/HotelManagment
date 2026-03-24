@@ -12,6 +12,7 @@ namespace HotelManagment.Models
         public string RoomNumber { get; set; }
 
         [Required]
+        [Range(1, 10, ErrorMessage = "Capacity must be between 1 and 10")]
         public int Capacity { get; set; }
 
         [Required]
