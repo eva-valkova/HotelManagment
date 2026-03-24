@@ -1,0 +1,28 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docuser
+
+# Build results
+[Dd]ebug/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio 2015/2017 cache names
+.vs/
+[Tt]est[Rr]esults/
+
+# Properties & Settings
+ASPNETCore_Temp/
+
+# Database files
+*.mdf
+*.ldf
+
+# Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
