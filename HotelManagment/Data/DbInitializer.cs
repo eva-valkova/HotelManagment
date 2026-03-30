@@ -25,7 +25,8 @@ public static class DbInitializer
                 LastName = "Admin",
                 EGN = "0000000000",
                 AppointmentDate = DateTime.Now,
-                IsActive = true
+                IsActive = true,
+                PhoneNumber = "1234567890",
             };
 
             await userManager.CreateAsync(admin, "Admin123!"); 
