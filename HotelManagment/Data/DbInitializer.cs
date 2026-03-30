@@ -24,6 +24,7 @@ public static class DbInitializer
                 MiddleName = "Hotel",
                 LastName = "Admin",
                 EGN = "0000000000",
+                PhoneNumber = "0888000000",
                 AppointmentDate = DateTime.Now,
                 IsActive = true
             };
