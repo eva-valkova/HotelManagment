@@ -31,3 +31,6 @@ ASPNETCore_Temp/
 *.db
 *.db-shm
 *.db-wal
+
+*.cache
+*.AssemblyInfo.cs
