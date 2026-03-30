@@ -7,54 +7,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Velvet&Vine</title>
-    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
+    <title>Home|Velvet & Vine</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
-<header>
-    <nav>
-        <div class="menu">
-            <a href="/"><img src="~/images/Logo.svg" class="logo" alt="logo"></a>
 
-            <div class="nav-right-side">
-                
-                @if (SignInManager.IsSignedIn(User))
-                {
-                    <span class="user-greeting">Hello, @User.Identity.Name!</span>
+    <nav class="navbar">
+        <div class="logo-small">Velvet & Vine</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Management ▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Users (Admin)</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">Reservations</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#login-section" class="btn-login">Login</a></li>
+        </ul>
+    </nav>
 
-                    @*SearchBar*@
-                     <form asp-controller="Book" asp-action="Search" method="get" class="search-form">
-                       <input type="text" name="query" placeholder="Search..." value="@ViewBag.SearchQuery">
-                       <button type="submit" style="background:none; border:none; cursor:pointer; display:flex; align-items:center; padding:0;">
-                       <ion-icon name="search-outline" style="color:#5CCCF9; font-size:22px;"></ion-icon>
-                       </button>
-                    </form>
+    <header class="hero" id="hero">
+        <div class="hero-content">
+            <div class="main-logo">
+                <h1>Velvet & Vine</h1>
+                <p>Elegance in every reservation</p>
+            </div>
+            <button class="scroll-btn" onclick="scrollToLogin()">Enter System</button>
+        </div>
+    </header>
 
-                    @*Profile*@
-                    @if (User.IsInRole("Author"))
-                    {
-                        <a href="/Author/Index" class="nav-icon"><ion-icon name="person-circle-outline"></ion-icon></a>
-                    }
-                    else if (User.IsInRole("Reader"))
-                    {
-                        <a href="/Reader/Index" class="nav-icon"><ion-icon name="person-circle-outline"></ion-icon></a>
-                    }
-                    <a class="nav-icon" href="/"><ion-icon name="home-outline"></ion-icon></a>
-                    @*Log out*@
-                    <a href="javascript:void(0)" id="logoutBtn" class="nav-icon"><ion-icon name="log-out-outline"></ion-icon></a>
-                }
-                else
-                {
-                    <a href="/Account/Login" class="logSignIn logIn">Log in</a>
-                    <a href="/Account/Register" class="logSignIn signIn">Sign in</a>
-                }
-
+    <section id="login-section" class="login-choice">
+        <h2>Welcome to Velvet & Vine</h2>
+        <p>Please select your profile to continue:</p>
+        <div class="choice-container">
+            <div class="card">
+                <h3>Administrator</h3>
+                <p>Full system control & user management</p>
+                <button onclick="location.href='login.html'">Enter Here</button>
+            </div>
+            <div class="card">
+                <h3>Employee</h3>
+                <p>Manage daily bookings and clients</p>
+                <button onclick="location.href='login.html'">Enter Here</button>
+            </div>
+            <div class="card">
+                <h3>Customer</h3>
+                <p>View availability and personal data</p>
+                <button onclick="location.href='login.html'">Enter Here</button>
             </div>
         </div>
-    </nav>
-</header>
+    </section>
 
+    <script>
+        // Scroll effect for navbar and hero section
+        window.onscroll = function() {
+            var nav = document.querySelector(".navbar");
+            var hero = document.getElementById("hero");
+            if (window.pageYOffset > 100) {
+                nav.classList.add("nav-active");
+                hero.classList.add("hero-shrink");
+            } else {
+                nav.classList.remove("nav-active");
+                hero.classList.remove("hero-shrink");
+            }
+        };
 
+        // Smooth scroll to login section
+        function scrollToLogin() {
+            document.getElementById('login-section').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>
