@@ -3266,23 +3266,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ANASTASIA\\.nuget\\packages\\": {},
+    "C:\\Users\\Valkovi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\HotelManagment\\HotelManagment\\HotelManagment.csproj",
+      "projectUniqueName": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\HotelManagment.csproj",
       "projectName": "HotelManagment",
-      "projectPath": "C:\\HotelManagment\\HotelManagment\\HotelManagment.csproj",
-      "packagesPath": "C:\\Users\\ANASTASIA\\.nuget\\packages\\",
-      "outputPath": "C:\\HotelManagment\\HotelManagment\\obj\\",
+      "projectPath": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\HotelManagment.csproj",
+      "packagesPath": "C:\\Users\\Valkovi\\.nuget\\packages\\",
+      "outputPath": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ANASTASIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Valkovi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

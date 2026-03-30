@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace HotelManagment.Migrations
 {
     /// <inheritdoc />
-    public partial class First : Migration
+    public partial class @new : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -34,7 +34,7 @@ namespace HotelManagment.Migrations
                     MiddleName = table.Column<string>(type: "TEXT", nullable: false),
                     LastName = table.Column<string>(type: "TEXT", nullable: false),
                     EGN = table.Column<string>(type: "TEXT", maxLength: 10, nullable: false),
-                    PhoneNumber = table.Column<string>(type: "TEXT", nullable: false),
+                    PhoneNumber = table.Column<string>(type: "TEXT", nullable: true),
                     AppointmentDate = table.Column<DateTime>(type: "TEXT", nullable: false),
                     IsActive = table.Column<bool>(type: "INTEGER", nullable: false),
                     DismissalDate = table.Column<DateTime>(type: "TEXT", nullable: true),
