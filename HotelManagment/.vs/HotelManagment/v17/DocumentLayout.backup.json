@@ -1,70 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\",
+  "WorkspaceRootPath": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\it project\\hotelmanager\\eva-valkova\\hotelmanagment\\hotelmanagment\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\hotel\\hotelmanagment\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\it project\\hotelmanager\\eva-valkova\\hotelmanagment\\hotelmanagment\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\hotel\\hotelmanagment\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\it project\\hotelmanager\\eva-valkova\\hotelmanagment\\hotelmanagment\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\it project\\hotelmanager\\eva-valkova\\hotelmanagment\\hotelmanagment\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\it project\\hotelmanager\\eva-valkova\\hotelmanagment\\hotelmanagment\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\it project\\hotelmanager\\eva-valkova\\hotelmanagment\\hotelmanagment\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\it project\\hotelmanager\\eva-valkova\\hotelmanagment\\hotelmanagment\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\it project\\hotelmanager\\eva-valkova\\hotelmanagment\\hotelmanagment\\hotelmanagment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:hotelmanagment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Migrations\\20260330085034_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260330085034_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\it project\\hotelmanager\\eva-valkova\\hotelmanagment\\hotelmanagment\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\it project\\hotelmanager\\eva-valkova\\hotelmanagment\\hotelmanagment\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\it project\\hotelmanager\\eva-valkova\\hotelmanagment\\hotelmanagment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\it project\\hotelmanager\\eva-valkova\\hotelmanagment\\hotelmanagment\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\it project\\hotelmanager\\eva-valkova\\hotelmanagment\\hotelmanagment\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\it project\\hotelmanager\\eva-valkova\\hotelmanagment\\hotelmanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\hotel\\hotelmanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\it project\\hotelmanager\\eva-valkova\\hotelmanagment\\hotelmanagment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\hotel\\hotelmanagment\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\hotel\\hotelmanagment\\services\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:services\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\hotel\\hotelmanagment\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\hotel\\hotelmanagment\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\hotel\\hotelmanagment\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\hotel\\hotelmanagment\\services\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:services\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\hotel\\hotelmanagment\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|c:\\inetpub\\wwwroot\\hotel\\hotelmanagment\\hotelmanagment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8F56A6D2-3ABF-4A6F-8466-498B0DEB1268}|HotelManagment.csproj|solutionrelative:hotelmanagment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,218 +54,157 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClientController.cs",
-              "DocumentMoniker": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Controllers\\ClientController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClientController.cs",
-              "ToolTip": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Controllers\\ClientController.cs",
-              "RelativeToolTip": "Controllers\\ClientController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T05:42:14.271Z",
+              "WhenOpened": "2026-03-31T07:39:21.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEgAAAAjAAAAAAAAAA==",
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Services\\ReservationService.cs",
+              "RelativeDocumentMoniker": "Services\\ReservationService.cs",
+              "ToolTip": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Services\\ReservationService.cs",
+              "RelativeToolTip": "Services\\ReservationService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T05:20:56.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T18:48:14.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Room.cs",
-              "DocumentMoniker": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Models\\Room.cs",
-              "RelativeDocumentMoniker": "Models\\Room.cs",
-              "ToolTip": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Models\\Room.cs",
-              "RelativeToolTip": "Models\\Room.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T18:33:24.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Models\\Client.cs",
-              "RelativeDocumentMoniker": "Models\\Client.cs",
-              "ToolTip": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Models\\Client.cs",
-              "RelativeToolTip": "Models\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T18:35:11.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T18:46:43.091Z",
+              "WhenOpened": "2026-03-31T07:43:05.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Models\\Reservation.cs",
-              "RelativeDocumentMoniker": "Models\\Reservation.cs",
-              "ToolTip": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Models\\Reservation.cs",
-              "RelativeToolTip": "Models\\Reservation.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Services\\IReservationService.cs",
+              "RelativeDocumentMoniker": "Services\\IReservationService.cs",
+              "ToolTip": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Services\\IReservationService.cs",
+              "RelativeToolTip": "Services\\IReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T18:04:54Z",
+              "WhenOpened": "2026-03-31T07:42:33.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "Controllers\\RoomsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T07:22:19.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T07:22:46.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Models\\Room.cs",
+              "ToolTip": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Models\\Room.cs",
+              "RelativeToolTip": "Models\\Room.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T17:48:25.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "HotelManagment.csproj",
-              "DocumentMoniker": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\HotelManagment.csproj",
-              "RelativeDocumentMoniker": "HotelManagment.csproj",
-              "ToolTip": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\HotelManagment.csproj",
-              "RelativeToolTip": "HotelManagment.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-24T18:35:35.686Z",
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Models\\Reservation.cs",
+              "ToolTip": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Models\\Reservation.cs",
+              "RelativeToolTip": "Models\\Reservation.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswCEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T17:51:31.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "Models\\Client.cs",
+              "ToolTip": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Models\\Client.cs",
+              "RelativeToolTip": "Models\\Client.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T17:42:42.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "20260330085034_new.cs",
-              "DocumentMoniker": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Migrations\\20260330085034_new.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260330085034_new.cs",
-              "ToolTip": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Migrations\\20260330085034_new.cs",
-              "RelativeToolTip": "Migrations\\20260330085034_new.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "IRoomService.cs",
+              "DocumentMoniker": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Services\\IRoomService.cs",
+              "RelativeDocumentMoniker": "Services\\IRoomService.cs",
+              "ToolTip": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Services\\IRoomService.cs",
+              "RelativeToolTip": "Services\\IRoomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T08:50:35.305Z",
+              "WhenOpened": "2026-03-31T07:30:13.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T19:23:39.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Data\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
-              "ToolTip": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Data\\DbInitializer.cs",
-              "RelativeToolTip": "Data\\DbInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Services\\RoomService.cs",
+              "RelativeDocumentMoniker": "Services\\RoomService.cs",
+              "ToolTip": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\Services\\RoomService.cs",
+              "RelativeToolTip": "Services\\RoomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T19:17:22.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T19:21:59.972Z",
+              "WhenOpened": "2026-03-31T07:34:56.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T19:22:08.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T19:22:27.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T18:56:00.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\inetpub\\wwwroot\\IT project\\HotelManager\\eva-valkova\\HotelManagment\\HotelManagment\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
+              "Title": "HotelManagment",
+              "DocumentMoniker": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\HotelManagment.csproj",
+              "RelativeDocumentMoniker": "HotelManagment.csproj",
+              "ToolTip": "C:\\inetpub\\wwwroot\\Hotel\\HotelManagment\\HotelManagment.csproj",
+              "RelativeToolTip": "HotelManagment.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-24T19:06:36.886Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-31T07:28:26.094Z",
               "EditorCaption": ""
             }
           ]

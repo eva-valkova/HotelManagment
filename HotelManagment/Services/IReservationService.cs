@@ -1,0 +1,14 @@
+using HotelManagment.Models;
+
+namespace HotelManagment.Services
+{
+    public interface IReservationService
+    {
+        void CreateReservation(Reservation reservation);
+        IEnumerable<Reservation> GetAll();
+        Reservation GetById(int id);
+        void Delete(int id);
+
+        decimal CalculateTotalAmount(Reservation reservation);
+    }
+}
