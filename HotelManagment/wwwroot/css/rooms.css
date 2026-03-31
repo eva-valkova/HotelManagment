@@ -1,0 +1,111 @@
+/* Color Palette */
+:root {
+    --bordo: #6b0d0d;
+    --beige: #f4e1d2;
+    --dark-gray: #333333;
+    --silver: #bdc3c7;
+    --white: #ffffff;
+}
+
+.rooms-container {
+    padding: 50px 8%;
+    background-color: var(--white);
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--bordo);
+    font-size: 3rem;
+}
+
+/* Room Grid Layout */
+.rooms-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+/* Individual Room Card */
+.room-card {
+    background: var(--white);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid var(--beige);
+    display: flex;
+    flex-direction: column;
+}
+
+.room-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(107, 13, 13, 0.15);
+}
+
+.room-image {
+    height: 220px;
+    background-color: var(--silver);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.room-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: var(--bordo);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.room-info {
+    padding: 25px;
+    flex-grow: 1;
+}
+
+.room-info h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--dark-gray);
+    margin-bottom: 10px;
+}
+
+.room-features {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.room-price {
+    font-size: 1.4rem;
+    color: var(--bordo);
+    font-weight: bold;
+    margin-top: auto;
+    border-top: 1px solid var(--beige);
+    padding-top: 15px;
+}
+
+.btn-reserve {
+    display: block;
+    text-align: center;
+    background: var(--bordo);
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-reserve:hover {
+    background: var(--dark-gray);
+}

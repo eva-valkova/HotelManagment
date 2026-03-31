@@ -1,39 +1,29 @@
-using System.Runtime.InteropServices;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HotelManagment.Models
 {
-    internal class Room
+    public class Room
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
+        [Required]
+        public string RoomNumber { get; set; }
 
-        public string Number { get; set; }
-
-
+        [Required]
+        [Range(1, 10, ErrorMessage = "Capacity must be between 1 and 10")]
         public int Capacity { get; set; }
 
+        [Required]
+        public string Type { get; set; } 
 
-        public string Type { get; set; }
+        public bool IsFree { get; set; } 
 
+        [Column(TypeName = "decimal(18, 2)")]
+        public decimal PriceForAdult { get; set; }
 
-        public bool IsFree { get; set; }
-
-
-        public decimal PriceAdult { get; set; }
-
-
-        public decimal PriceChild { get; set; } 
-
-
-
+        [Column(TypeName = "decimal(18, 2)")]
+        public decimal PriceForChild { get; set; }
     }
 }

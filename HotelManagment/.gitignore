@@ -26,3 +26,11 @@ ASPNETCore_Temp/
 *.nupkg
 **/packages/*
 !**/packages/build/
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+
+*.cache
+*.AssemblyInfo.cs
