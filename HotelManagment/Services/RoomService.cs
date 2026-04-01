@@ -1,5 +1,6 @@
 using HotelManagment.Data; 
 using HotelManagment.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -55,5 +56,25 @@ namespace HotelManagment.Services
         {
             throw new NotImplementedException();
         }
+
+        public IEnumerable<Room> GetAvailableRooms(DateTime start, DateTime end, int? capacity = null)
+        {
+            var occupiedRoomIds = _db.Reservations
+                .Where(res => start < res.CheckOutDate && end > res.CheckInDate)
+                .Select(res => res.RoomId)
+                .Distinct()
+                .ToList();
+
+            var query = _db.Rooms.Where(r => !occupiedRoomIds.Contains(r.Id));
+
+            if (capacity.HasValue)
+            {
+                query = query.Where(r => r.Capacity >= capacity.Value);
+            }
+
+            return query.ToList();
+        }
+
+        
     }
 }

@@ -1,15 +1,11 @@
 using HotelManagment.Data;
 using HotelManagment.Models;
-<<<<<<< Updated upstream
-=======
 using HotelManagment.Services;
->>>>>>> Stashed changes
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-<<<<<<< Updated upstream
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => {
@@ -24,7 +20,6 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options => {
 
 builder.Services.AddControllersWithViews();
 
-=======
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => {
@@ -40,8 +35,7 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options => {
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IRoomService, RoomService>();
 builder.Services.AddScoped<IReservationService, ReservationService>();
-
->>>>>>> Stashed changes
+builder.Services.AddScoped<UserService>();
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 

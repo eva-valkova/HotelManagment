@@ -1,4 +1,5 @@
 using HotelManagment.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace HotelManagment.Services
 {
@@ -12,5 +13,8 @@ namespace HotelManagment.Services
         void UpdateRoom(Room room);
         void DeleteRoom(int id);
         Room GetRoomById(int id);
+
+        IEnumerable<Room> GetAvailableRooms(DateTime start, DateTime end, int? capacity = null);
+        
     }
 }
